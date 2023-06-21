@@ -1,0 +1,4 @@
+/.env
+/db.sqlite3
+/frank.sqlite3
+/node_modules
