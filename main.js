@@ -214,7 +214,7 @@ for (const post of posts) {
                     const communityId = await getCommunityId(community.slug)
                     const postname = post.name.replace('%{WEEKLYDATE}', format(new Date(), 'MMM \'week %{WN},\' yyyy').replace('%{WN}', getWeekOfMonth(new Date()))).replace('%{COMSHORT}', community.short);
                     const postbody = post.body.replace('%{COMSHORT}', community.short);
-                    await createPost({ name: postname, body: postbody, communityId})
+                    await createPost({ name: postname, body: postbody, community_id: communityId})
                     console.log(`${chalk.blue('POSTED:')} Created ${postname} for ${community.slug}`);
                 }
             }
