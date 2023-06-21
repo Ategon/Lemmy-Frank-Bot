@@ -5,7 +5,7 @@ This bot is made for the https://programming.dev/ gamedev communities but the so
 
 ## Setup
 1. Clone the repository
-2. Create an account in the instance you want the bot to have as its home (jsut make a regular user)
+2. Create an account in the instance you want the bot to have as its home (just make a regular user)
 3. Create a file called .env in the bot folder and give it values in this format with the data in the quotes
 ```
 INSTANCE="" // The instance the bot account is in
