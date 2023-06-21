@@ -1,0 +1,20 @@
+{
+  "name": "lemmy-frank-bot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ategon",
+  "license": "AGPL-3.0",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "common-tags": "^1.8.2",
+    "date-fns": "^2.30.0",
+    "dotenv": "^16.3.1",
+    "lemmy-bot": "^0.3.9",
+    "sqlite3": "^5.1.6"
+  },
+  "type": "module"
+}
