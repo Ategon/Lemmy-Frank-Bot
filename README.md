@@ -1,4 +1,4 @@
-# Lemmy-Frank-Bot
+# Frank Bot
 A lemmy bot that auto posts threads in communities at given times
 
 This bot is made for the https://programming.dev/ gamedev communities but the source code can be modified to accomodate any community
