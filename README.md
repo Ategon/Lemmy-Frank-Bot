@@ -6,7 +6,7 @@ This bot is made for the https://programming.dev/ gamedev communities but the so
 ## Setup
 1. Clone the repository
 2. Create an account in the instance you want the bot to have as its home (just make a regular user)
-3. Create a file called .env in the bot folder and give it values in this format with the data in the quotes
+3. Create a file called .env in the bot folder and give it values in this format with the data in the quotes (dont add the slashes or the part after the slashes)
 ```
 INSTANCE="" // The instance the bot account is in
 USERNAME="" // The bot username
@@ -16,3 +16,5 @@ PASSWORD="" // The bot password
 5. Open a terminal in the bot folder and run `npm install` to install dependendies and then `node main.js` to run the bot (whenever you want to start the bot again you can just do ctrl+c to interrupt the process and node main.js to start the bot)
 
 I recommend installing something like [forever.js](https://www.npmjs.com/package/forever) for making it run continually
+
+If you run into issues feel free to dm me on Matrix [here](https://matrix.to/#/@ategon:matrix.org)
