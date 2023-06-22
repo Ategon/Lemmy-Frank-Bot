@@ -211,7 +211,7 @@ for (const post of posts) {
         doTask: async ({getCommunityId, createPost}) => {
             for (const community of communities) {
                 if (community.categories.includes(post.category)) {
-                    const communityId = await getCommunityId(community.slug)
+                    const communityId = await getCommunityId({ name: community.slug, instance: community.instance })
                     const postname = post.name.replace('%{WEEKLYDATE}', format(new Date(), 'MMM \'week %{WN},\' yyyy').replace('%{WN}', getWeekOfMonth(new Date()))).replace('%{COMSHORT}', community.short);
                     const postbody = post.body.replace('%{COMSHORT}', community.short);
                     await createPost({ name: postname, body: postbody, community_id: communityId})
